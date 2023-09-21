@@ -3,14 +3,16 @@ public class Fila {
     private Fila(){
 
     }
-    private void ImprimeDocumento(){
-
+    public void ImprimeFila() {
+        System.out.println("Imprimindo a fila");
     }
-    private void RemoveDocumento(){
 
+    public void RemoveDocumento() {
+        System.out.println("Removendo um documento da fila");
     }
-    private void RemoveTodosDocumentos(){
 
+    public void RemoveTodosDocumentos() {
+        System.out.println("Removendo todos os documentos da fila");
     }
 
     public static Fila getInstance(){
